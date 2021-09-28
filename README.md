@@ -7,6 +7,9 @@ O dia-a-dia de desenvolvimento na LojaVirtual.com.br envolve o desenvolvimento d
 O desafio proposto será desenvolver uma lib de integração com o módulo de pagamentos (Cartão de Crédito) da PagarMe.
 O candidato deverá criar uma lib que será disponibilizada via composer.
 
+## Documentação da API
+- https://docs.pagar.me/docs/overview-principal
+
 ## Requisitos
  - Deverá ser desenvolvida utilizando a versão 5.6 do php;
  - Deverá conter os testes unitários;
