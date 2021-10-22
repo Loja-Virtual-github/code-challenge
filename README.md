@@ -1,20 +1,41 @@
 ![lojavirtual header](https://admin.lojavirtual.com.br/img/admin_loja/logo_loja_virtual.png)
 
-# [LojaVirtual.com.br](https://www.lojavirtual.com.br/) - Code Challenge
+# [LojaVirtual.com.br](https://www.lojavirtual.com.br/) - Teste prático de PHP
 
-## Desafio
-O dia-a-dia de desenvolvimento na LojaVirtual.com.br envolve o desenvolvimento de várias plataformas de integração, sejam elas módulos de pagamento, marketplace, módulos de frete etc...
-O desafio proposto será desenvolver uma lib de integração com o módulo de pagamentos (Cartão de Crédito) da PagarMe.
-O candidato deverá criar uma lib que será disponibilizada via composer.
+## Objetivo
+O objetivo desta etapa é conhecer suas habilidades em:
+- PHP
+- MySQL
+- Entendimento e análise de requisitos
+- Modelagem de banco de dados
+- Desenvolvimento e integração de webservices
 
-## Requisitos
- - Deverá ser desenvolvida utilizando a versão 5.6 do php;
- - Deverá conter os testes unitários;
- - Deverá ser possível o avaliador instalar a lib pelo composer require;
- - Deverá respeitar as PSR's 1 e 4 pelo menos;
+## Problema
+### Cadastro de usuário
+Você deverá criar um CRUD simples em formato de API de cadastro de usuário. 
+A aplicação **não** precisa ter uma interface visual, somente a API.
 
-## Credenciais
-As credenciais necessárias para o acesso à sandbox do PagarMe deverão ser solicitadas através do e-mail pablo@lojavirtual.com.br
+Os campos de entrada serão:
+- Nome
+- Email
+- Data de nascimento
+- Telefone
+- CPF
+- Endereco (logradouro, bairro, cidade, estado, cep)
+    `Para o endereço, a única entrada deverá ser o CEP, os outros campos deverão ser preenchidos utilizando a API do viacep.`
+- Data de cadastro
+- Data de atualização
+- Data da exclusão
+
+### Requisitos obrigatórios
+- Deverá ser implementado utilizando as especificações REST
+- A aplicação deverá ter um controle de acesso de por Token
+
+## Diferenciais
+- Utilização de patterns
+- PSR's
+- Desenvolvimento de testes unitários
+- Docker
 
 ## Referência
 - https://docs.pagar.me/docs/overview-principal
