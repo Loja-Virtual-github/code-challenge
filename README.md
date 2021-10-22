@@ -22,14 +22,16 @@ Os campos de entrada serão:
 - Telefone
 - CPF
 - Endereco (logradouro, bairro, cidade, estado, cep)
-    `Para o endereço, a única entrada deverá ser o CEP, os outros campos deverão ser preenchidos utilizando a API do viacep.`
+    `Para o endereço, a única entrada deverá ser o CEP, os outros campos deverão ser preenchidos utilizando a API do ViaCEP.`
 - Data de cadastro
 - Data de atualização
 - Data da exclusão
 
 ### Requisitos obrigatórios
 - Deverá ser implementado utilizando as especificações REST
+- A API deverá aceitar os formatos **json** e **multipart/form-data**
 - A aplicação deverá ter um controle de acesso de por Token
+- A aplicação deverá ser disponibilizada no GitHub com todas instruções necessárias para rodá-la no README.md.
 
 ## Diferenciais
 - Utilização de patterns
@@ -37,5 +39,7 @@ Os campos de entrada serão:
 - Desenvolvimento de testes unitários
 - Docker
 
-## Referência
-- https://docs.pagar.me/docs/overview-principal
+## ViaCEP
+[ViaCEP](https://viacep.com.br/)
+
+## Boa sorte! ;)
